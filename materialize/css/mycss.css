@@ -1,0 +1,376 @@
+#identity img,
+#hobby img,
+#education img
+{
+	width: 50%;
+	height: 450px;
+	box-shadow: 0px 0px 10px 0px gray;
+}
+
+
+h1{
+	font-family: times;
+	font-size: 50px;
+}
+
+ p b{
+	font-family:   Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 23px;
+}
+.nav-wrapper li{
+	font-family:   arial ;
+	font-size: 80px; !important
+}
+
+
+p{
+	font-size: 23px;
+}
+.header{
+	margin-top: 50px;
+	margin-bottom: 3px;
+}
+.row, #backcolor1{
+	width: 100%;
+	height: 450px;
+}
+
+.edu_content{
+	background-color: #D0F6F5;
+	box-shadow: 3px 3px 15px 3px gray;
+}
+
+.hby{
+	background-color: #CDFABC;
+	box-shadow: 3px 3px 15px 3px gray;
+}
+
+.known{
+	background-color: #2C3E50;
+	box-shadow: 3px 3px 15px 3px gray;
+}
+
+
+.id{
+	width: 100%;
+	margin-top: 25px;
+	margin-left: 5px;
+}
+
+
+.id h4{
+	font-family: times;
+}
+
+#backcolor1{
+	background-color: #F6F2D0;
+	box-shadow: 3px 3px 15px 3px gray;
+
+}
+
+#edu, .edu{
+	padding-left: 75px;
+	
+}
+.edu{
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+
+}
+
+.masters,.graduation,.hs,.secondary{
+	width: 50%;
+	height: auto;
+}
+.edu_content, .hby, .known{
+	margin-top: 8px;
+	max-width: 100%;
+	position: relative;
+	height: 450px;
+}
+
+.prev, .next, .prev1, .next1, .prev2, .next2{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 15px;
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.5s ease;
+ 
+  border-radius: 0px 10px 10px 0px;
+}
+
+.next, .next1, .next2 {
+  right: 0;
+  border-radius: 10px 0 0 10px;
+}
+
+.prev:hover, .next:hover, .prev1:hover, .next1:hover{
+  background-color: #00FCE3;
+}
+
+.prev2, .next2 {
+	background-color: #00FCE3;
+ 	
+}
+
+.dot,.dot1,.dot2{
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #E7E7FE;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover, .dot1:hover {
+  background-color: #11C1AF;
+}
+
+.slider {
+    -webkit-animation-name: slidr;
+    -webkit-animation-duration: 2s;
+    animation-name :slider;
+    animation-duration:2s;
+}
+
+@-webkit-keyframes slider {
+    from{
+    	margin-left: 100%;
+    	width:300%;
+    }
+    to{
+    	margin-left: 0%;
+    	width: 100%
+    }
+}
+
+@keyframes slider {
+    from{
+    	margin-left: 100%;
+    	width:300%;
+    }
+    to{
+    	margin-left: 0%;
+    	width: 100%;
+    }
+}
+
+.nav-wrapper, .page-footer	 {
+  background-color: #5077bc !important;
+}
+
+.nav-wrapper a{
+	margin-left: 10px;
+}
+#hobby .hbylogo img{
+	float:left;
+	width: 70px;
+
+	height: auto;
+	margin-top: 29px;
+	margin-left:-50px;
+	box-shadow: 0 0 0 0;
+}
+.hbylogo h3{
+	position: relative;
+	top:10px;
+	left:10px;
+	color:green;
+}
+
+.hbylogo p{
+	text-align: justify;
+	margin-left: -150px;
+	margin-right: 60px;
+	margin-top: 50px;
+}
+
+.parallax-container{
+	height: 650px;
+	margin-top: 0px;
+}
+
+.parallax img{
+	height: 500px;
+	background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+
+h2{
+	font-family: times;
+	font-size: 40px;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+.skill img{
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-right: 15px;
+}
+
+
+.program_language{
+	width: 50%;
+	padding: 0px;
+	margin-left: 15px;
+}
+
+.other_language{
+	float: right;
+	margin-right: 30px;
+}
+
+.program_language h4, .other_language h4{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.language{
+	width: 100%;
+	height: 450px;
+}
+.skill{
+  width:600px;
+ height: 50px;
+
+}
+
+.rating-bar{
+  background:black;
+  padding:0px;
+  width: 300px;
+  margin-top: 10px;
+
+}
+.rating-bar span{
+  display:block;
+  height:23px;
+}
+.rating-bar, .rating-bar span {
+  border-radius:3px; 
+}
+
+/* Used to color the bars */
+.blue{ background:blue; }
+
+/* .rate-n, n being the rating from 1 to 10 */
+.rate-1{ width:10%; }
+.rate-2{ width:20%; }
+.rate-3{ width:30%; }
+.rate-4{ width:40%; }
+.rate-5{ width:50%; }
+.rate-6{ width:60%; }
+.rate-7{ width:70%; }
+.rate-8{ width:80%; }
+.rate-9{ width:90%; }
+.rate-10{ width:100%; }
+
+/* CSS3 Animation */
+.animate{
+  animation: progress 2s linear;
+  -moz-animation: progress 2s linear;
+  -webkit-animation: progress 2s linear;
+  -ms-animation: progress 2s linear;
+  -o-animation: progress 2s linear;
+}
+/* Span fills 100% of parent div (.rate-n) which may be 10-100% of the width of black bar (.rating) */
+@-webkit-keyframes progress {
+  from { width:0% }
+  to { width:100%; }
+}
+@-moz-keyframes progress {
+  from { width:0% }
+  to { width:100%; }
+}
+@-ms-keyframes progress {
+  from { width:0% }
+  to { width:100%; }
+}
+@-o-keyframes progress {
+  from { width:0% }
+  to { width:100%; }
+}
+@keyframes progress {
+  from { width:0% }
+  to { width:100%; }
+}
+
+.drm{
+	overflow:hidden; 
+	margin-top: 8px;
+	max-width: 100%;
+	position: relative;
+	height: 750px;
+}
+.video-wrapper {
+    position: absolute;
+}
+
+.video-wrapper > video {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.video-wrapper > video.has-media-controls-hidden::-webkit-media-controls {
+    display: none;
+}
+
+.video-overlay-play-button {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 10px calc(50% - 50px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    opacity: 0.95;
+    cursor: pointer;
+    background-image: linear-gradient(transparent, #000);
+    transition: opacity 150ms;
+}
+
+.video-overlay-play-button:hover {
+    opacity: 1;
+}
+
+.video-overlay-play-button.is-hidden {
+    display: none;
+}
+
+footer{
+	font-size: 1em;
+}
+
+.contact img{
+	float: left;
+	height: 40px;
+	width: 40px;
+	margin-right: 15px;	
+}
+
+.contact{
+	width: 600px;
+	height: 50px;
+}
+
+#about p{
+	font-size: 20px;
+	text-align: justify;
+}
+
+.links a{
+	padding: 10px;
+}
